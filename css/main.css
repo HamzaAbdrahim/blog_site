@@ -86,7 +86,7 @@ line-height: 150%;
   border: 1px solid white;
   color: white;
   background-color: transparent;
-  font-size: 0.875rem;
+  font-size: clamp(1rem , 8vw ,1.5rem);
   font-style: normal;
   font-weight: 700;
   line-height: 150%; 
@@ -107,7 +107,7 @@ width: 100%;
 .input_label {
 color: #4C4C4C;
 font-family: var(--headingFont);
-font-size: 1rem;
+font-size: clamp(1rem , 8vw ,1.5rem);
 font-style: normal;
 font-weight: 600;
 line-height: 1.75rem;
@@ -125,7 +125,7 @@ font-weight: 500;
 .Input::placeholder {
   color: #5A7184;
   font-family: var(--headingFont);
-  font-size: 1rem;
+  font-size: clamp(1rem , 8vw ,1.5rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -343,7 +343,7 @@ height: clamp(1rem ,1rem + 4vw , 2.73775rem) ;
     border-radius: 1rem; 
     padding: 2rem 6.5rem  2rem 2rem;
     margin-left: auto;
-    margin-top: -7rem;
+    margin-top: -15rem;
     width: 100%;
   }
   
@@ -462,7 +462,7 @@ max-width: 42ch;
 .newsletter .newsletter_discrption {
   color: #BBB;
   text-align: center;
-  font-size: 1rem;
+  font-size: clamp(1rem , 8vw ,1.5rem);
   font-style: normal;
   font-weight: 400;
   line-height: 1.75rem; /* 175% */
@@ -504,9 +504,9 @@ margin-bottom: 5.5rem;
     color: #150E06;
 
     font-family: var(--headingFont);
-font-size: 1rem;
+    font-size: clamp(1rem , 8vw ,1.5rem);
 font-style: normal;
-font-weight: 400;
+font-weight: 600;
 line-height: 150%;
 padding-block: 2.5rem 3.38rem;
   }
