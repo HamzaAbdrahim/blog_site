@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- freamwork -->
+    <link rel="stylesheet" href="./css/freamwork.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>website titel</title>
+</head>
+<body>
+    <!--start Navbar -->
+    <header class="container flexBetween">
+<section style="gap: 1rem;" role="log" class="flexItems">
+    <img src="./imgs/sitelogo.svg" alt="website logo">
+    <h1 class="site__titel">Zarrin</h1>
+</section>
+<nav class="flexItems">
+    <a class="navLink isActive"  href="#">Blog</a>
+    <a class="navLink" href="#">About</a>
+    <img src="./imgs/searchIcon.svg" alt="shearch Icon" style="cursor: pointer;">
+    <a href="contact.html" class="primery__button d-lg-none">Contact Us</a>
+</nav>
+    </header>
+    <!--end Navbar -->
+
+    <!-- start Git in tech section -->
+    <div style="background-color: #FAFAFA;">
+        <!-- start information section -->
+        <section class="container GitInTech">
+            <div style="text-align: center;">
+                <h1 style="margin-bottom: 1rem;" class="section_titel">Get in Touch</h1>
+                <p style="max-width: 45ch; margin-inline: auto; margin-bottom: 3.56rem;" class="section_discrption">Contact us to publish your 
+                    content and show ads to our website 
+                    and get a good reach.</p>
+            </div>
+                <section class="col-3-responsive information_section">
+                    <div class="info_tab">
+                        <div class="icon_tab">
+                            <img src="./imgs/home.svg" alt="">
+                        </div>
+                        <h3 class="titel_tab">Office</h3>
+                        <p class="discrption-tab">Victoria Street, London, UK</p>
+                    </div>
+                    <div class="info_tab">
+                        <div class="icon_tab">
+                            <img src="./imgs/masseger.svg" alt="masg icon">
+                        </div>
+                        <h3 class="titel_tab">Email</h3>
+                        <p class="discrption-tab">hello@zarrin.com</p>
+                    </div>
+                    <div class="info_tab">
+                        <div class="icon_tab">
+                            <img src="./imgs/call.svg" alt="">
+                        </div>
+                        <h3 class="titel_tab">Phone</h3>
+                        <p class="discrption-tab">(001) 2342 3451</p>
+                    </div>
+                </section>
+        </section>
+        <!-- end information section -->
+        <!-- start contact form -->
+        <div  style="width: 100%; position: relative; margin-top: 7rem;">
+            <img src="./imgs/gitintech_img.png" alt="git in tech">
+            <form method="post" style="place-items: center;" class="contact_box">
+                <div style="gap: 1.31rem; margin-bottom: 1.30rem;" class="col-2-responsive">
+                    <div style="width: 100%;">
+                        <label class="input_label" for="name" for="">Name</label>                        
+                        <br>
+                        <input type="text" id="name" class="contectForm_Input" required placeholder="Your Email">
+                    </div>
+                    <div style="width: 100%;">
+                        <label class="input_label" for="name" for="">Name</label>                        
+                        <br>
+                        <input type="text" id="name" class="contectForm_Input" required placeholder="Your Email">
+                    </div>
+                </div>
+                <div style="gap: 1.31rem; margin-bottom: 1.30rem;" class="col-2-responsive">
+                    <div style="width: 100%;">
+                        <label class="input_label" for="name" for="">Name</label>                        
+                        <br>
+                        <input type="text" id="name" class="contectForm_Input" required placeholder="Your Email">
+                    </div>
+                    <div style="width: 100%;">
+                        <label class="input_label" for="name" for="">Name</label>                        
+                        <br>
+                        <input type="text" id="name" class="contectForm_Input" required placeholder="Your Email">
+                    </div>
+                </div>
+                <div style="width: 100%; margin-block: 1.30rem;">
+                    <label class="input_label" for="name" for="">Message</label>                        
+                    <br>
+                    <textarea name="" class="contectForm_Input_msg" ></textarea>
+                </div>
+                <div style="width: 100%; text-align: center;">
+                    <button type="submit" class="primery__button">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <!-- end contact form -->
+    </div>
+    <!-- end Git in tech section -->
+
+    <!-- start newsletter section -->
+    <section style="margin-top: 0 !important;" class="newsletter purpel_background">
+        <h1 class="newsletter_titel">Get our stories delivered From us to your inbox weekly.</h1>
+        <div style="gap: .5rem; margin-block: 3rem 1.5rem;" class="flexItems">
+            <input type="text" class="Input" required placeholder="Your Email">
+            <button class="secondary_outline_button">Get started</button>
+        </div>
+        <p class="newsletter_discrption">Get a response tomorrow if you submit by 9pm today. If we received after 9pm will get a reponse the following day.</p>
+    </section>
+    <!-- end newsletter section -->
+
+    <!-- start footer section -->
+    <footer class="footer_container  centerwithGrid">
+        <section style="gap: 1rem;" role="log" class="flexItems">
+            <img src="./imgs/sitelogo.svg" alt="website logo">
+            <h1 class="site__titel">Zarrin</h1>
+        </section>
+        <ul style="flex-wrap: wrap; margin-block: 2.63rem;" class="footer_list flexItems">
+            <li><a class="navLink" href="#">Home</a></li>
+            <li><a class="navLink" href="#">Blog</a></li>
+            <li><a class="navLink" href="#">About </a></li>
+            <li><a class="navLink" href="#">Contact Us</a></li>
+        </ul>
+        <ul style="gap: 1rem;" gap class="flexItems">
+            <li class="social_media_link"><a href="#">FB</a></li>
+            <li class="social_media_link"><a href="#">IG</a></li>
+            <li class="social_media_link"><a href="#">LN</a></li>
+            <li class="social_media_link"><a href="#">YT</a></li>
+        </ul>
+        <hr class="line">
+        <p class="footer_titel">Copyright Ideapeel Inc © 2023. All Right Reserved</p>
+    </footer>
+    <!-- end footer section -->
+
+    
+</body>
+</html>

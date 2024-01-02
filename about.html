@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- freamwork -->
+    <link rel="stylesheet" href="./css/freamwork.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- js -->
+    <script src="./js/main.js" defer></script>
+
+    <title>website titel</title>
+</head>
+<body>
+    <!--start Navbar -->
+    <header class="container flexBetween">
+<section style="gap: 1rem;" role="log" class="flexItems">
+    <img src="./imgs/sitelogo.svg" alt="website logo">
+    <h1 class="site__titel">Zarrin</h1>
+</section>
+<nav class="flexItems">
+    <a class="navLink isActive"  href="#">Blog</a>
+    <a class="navLink" href="#">About</a>
+    <img src="./imgs/searchIcon.svg" alt="shearch Icon" style="cursor: pointer;">
+    <a href="contact.html" class="primery__button d-lg-none">Contact Us</a>
+</nav>
+<a href="#" id="menu-trigger" class="menu_link">
+    <img src="./imgs/Menu.png" alt="">
+</a>
+    </header>
+    <!--end Navbar -->
+
+    <!-- start Git in tech section -->
+    <div style="background-color: #FAFAFA;">
+        <!-- start information section -->
+        <section class="container GitInTech">
+            <div style="text-align: center;">
+                <p class="path_Titel">ABOUT US</p>
+                <h1  style="max-width: 25ch; margin-inline: auto; margin-block: 1.5rem;" class="section_titel">Creative Blog Writting and publishing site</h1>
+                <p style="max-width: 90ch; margin-inline: auto; margin-bottom: 3.56rem;" class="section_discrption">
+                    Leverage agile frameworks to provide a robust synopsis for 
+                    high level overviews. 
+                    Iterative approaches to corporate strategy foster 
+                    collaborative thinking to further the overall value
+                     proposition. Organically grow the holistic world view 
+                     of disruptive innovation 
+                    via workplace diversity and empowerment.</p>
+            </div>
+            <div style="margin-block: 7.69rem 6.25rem; " >
+                <img class="w-full" src="./imgs/aboutUs.png" alt=" img of the team working on project">
+            </div>
+            <div class="about_interdction">
+                <section>
+                    <p class="path_Titel">HOW WE WORK</p>
+                    <h1 class="about_titel">I will show you how our team works</h1>
+                </section>
+                <p class="about_discrption">Bring to the table win-win market strategies to ensure perfect articles. </p>
+            </div>
+            <div style="gap: 1rem; margin-top: 5rem;" id="aboutCardContainer" class="col-3-responsive">
+                <div class="about_card Active">
+                    <p class="card_number">01</p>
+                    <h3 class="card_title">Brainstorming</h3>
+                    <p class="card_description">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated</p>
+                    <a href="#" class="learn_more">Learn More</a>
+                </div>
+                <div class="about_card">
+                    <p class="card_number">01</p>
+                    <h3 class="card_title">Brainstorming</h3>
+                    <p class="card_description">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated</p>
+                    <a href="#" class="learn_more">Learn More</a>
+                </div>
+                <div class="about_card">
+                    <p class="card_number">01</p>
+                    <h3 class="card_title">Brainstorming</h3>
+                    <p class="card_description">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated</p>
+                    <a href="#" class="learn_more">Learn More</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- end information section -->
+    </div>
+    <!-- end Git in tech section -->
+
+    <!-- start newsletter section -->
+    <section style="margin-top: 0 !important;" class="newsletter purpel_background">
+        <h1 class="newsletter_titel">Get our stories delivered From us to your inbox weekly.</h1>
+        <div style="gap: .5rem; margin-block: 3rem 1.5rem;" class="flexItems">
+            <input type="text" class="Input" required placeholder="Your Email">
+            <button class="secondary_outline_button">Get started</button>
+        </div>
+        <p class="newsletter_discrption">Get a response tomorrow if you submit by 9pm today. If we received after 9pm will get a reponse the following day.</p>
+    </section>
+    <!-- end newsletter section -->
+
+    <!-- start footer section -->
+    <footer class="footer_container  centerwithGrid">
+        <section style="gap: 1rem;" role="log" class="flexItems">
+            <img src="./imgs/sitelogo.svg" alt="website logo">
+            <h1 class="site__titel">Zarrin</h1>
+        </section>
+        <ul style="flex-wrap: wrap; margin-block: 2.63rem;" class="footer_list flexItems">
+            <li><a class="navLink" href="#">Home</a></li>
+            <li><a class="navLink" href="#">Blog</a></li>
+            <li><a class="navLink" href="#">About </a></li>
+            <li><a class="navLink" href="#">Contact Us</a></li>
+        </ul>
+        <ul style="gap: 1rem;" gap class="flexItems">
+            <li class="social_media_link"><a href="#">FB</a></li>
+            <li class="social_media_link"><a href="#">IG</a></li>
+            <li class="social_media_link"><a href="#">LN</a></li>
+            <li class="social_media_link"><a href="#">YT</a></li>
+        </ul>
+        <hr class="line">
+        <p class="footer_titel">Copyright Ideapeel Inc © <span id="daynamick_year"></span> All Right Reserved</p>
+    </footer>
+    <!-- end footer section -->
+
+    
+</body>
+</html>
